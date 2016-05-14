@@ -1,0 +1,32 @@
+#wrapper{
+	width: 1024px;
+	height: 800px;
+	
+
+}
+#board{
+	margin: auto auto;
+	border: 1px solid #090909;
+	font-size: 10px;
+	box-sizing: border-box;
+	border-collapse: collapse;
+
+	}
+
+#board tr td
+{	
+	width: 128px;
+	height: 128px;
+	border:1px solid #090909;
+}
+
+img
+{
+	width: 128px;
+	display: none;
+}
+
+
+
+
+		
