@@ -1,32 +1,37 @@
-#wrapper{
-	width: 1024px;
-	height: 800px;
-	
-
-}
-#board{
-	margin: auto auto;
-	border: 1px solid #090909;
-	font-size: 10px;
-	box-sizing: border-box;
-	border-collapse: collapse;
-
-	}
-
-#board tr td
-{	
-	width: 128px;
-	height: 128px;
-	border:1px solid #090909;
-}
-
-img
-{
-	width: 128px;
-	display: none;
+#game {
+    width: 800px;
+    margin: auto auto;
 }
 
 
+/*#menu {
+	float: left;
+}
 
+#newGame {
+	display: inline;
+	float: left;
+}*/
 
-		
+#board {
+    margin: auto auto;
+    border: white solid 10px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+#board tr td {
+    width: 128px;
+    height: 140px;
+    border: white solid 10px;
+    background-color: #E8E8E8;
+}
+
+img {
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s ease, opacity 0.5s ease;
+}
